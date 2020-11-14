@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1C23C4F5256042450041A6FA /* AttendanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C23C4F4256042450041A6FA /* AttendanceVC.swift */; };
+		1C23C4FB256056C60041A6FA /* service.php in Resources */ = {isa = PBXBuildFile; fileRef = 1C23C4FA256056C60041A6FA /* service.php */; };
+		1CDE77D725606AA8002AF7AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE77D625606AA8002AF7AB /* GoogleService-Info.plist */; };
+		1CDE77DC25606CEA002AF7AB /* WCFIBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE77DB25606CEA002AF7AB /* WCFIBase.swift */; };
 		1CF6476C2560393B00500D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6476B2560393B00500D63 /* AppDelegate.swift */; };
 		1CF6476E2560393B00500D63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6476D2560393B00500D63 /* SceneDelegate.swift */; };
 		1CF647702560393B00500D63 /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6476F2560393B00500D63 /* MainMenuVC.swift */; };
@@ -17,6 +20,9 @@
 		1CF6477B2560393C00500D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF647792560393C00500D63 /* LaunchScreen.storyboard */; };
 		1CF647862560393C00500D63 /* WCFI_ATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF647852560393C00500D63 /* WCFI_ATests.swift */; };
 		1CF647912560393C00500D63 /* WCFI_AUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF647902560393C00500D63 /* WCFI_AUITests.swift */; };
+		581ECC00EA6ECF3CDA21B895 /* Pods_WCFI_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FCE9C903BFE665EEB43E88 /* Pods_WCFI_A.framework */; };
+		7A10A353A5A1F4CCA5DB2EA2 /* Pods_WCFI_A_WCFI_AUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062524D8E83180C7CE9F9219 /* Pods_WCFI_A_WCFI_AUITests.framework */; };
+		BCB7C2FD073C06353856C29A /* Pods_WCFI_ATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03902C6CDD56C6BF4D8E2E4B /* Pods_WCFI_ATests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03902C6CDD56C6BF4D8E2E4B /* Pods_WCFI_ATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCFI_ATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		062524D8E83180C7CE9F9219 /* Pods_WCFI_A_WCFI_AUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCFI_A_WCFI_AUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A7F107CBC958EECAC5046A /* Pods-WCFI-A-WCFI-AUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCFI-A-WCFI-AUITests.debug.xcconfig"; path = "Target Support Files/Pods-WCFI-A-WCFI-AUITests/Pods-WCFI-A-WCFI-AUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C23C4F4256042450041A6FA /* AttendanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceVC.swift; sourceTree = "<group>"; };
+		1C23C4FA256056C60041A6FA /* service.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = service.php; sourceTree = "<group>"; };
+		1CDE77D625606AA8002AF7AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1CDE77DB25606CEA002AF7AB /* WCFIBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCFIBase.swift; sourceTree = "<group>"; };
 		1CF647682560393B00500D63 /* WCFI-A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCFI-A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF6476B2560393B00500D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CF6476D2560393B00500D63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +65,12 @@
 		1CF6478C2560393C00500D63 /* WCFI-AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCFI-AUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF647902560393C00500D63 /* WCFI_AUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCFI_AUITests.swift; sourceTree = "<group>"; };
 		1CF647922560393C00500D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FCE9C903BFE665EEB43E88 /* Pods_WCFI_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCFI_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E00E22BFBE505EDF2B326A0 /* Pods-WCFI-A-WCFI-AUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCFI-A-WCFI-AUITests.release.xcconfig"; path = "Target Support Files/Pods-WCFI-A-WCFI-AUITests/Pods-WCFI-A-WCFI-AUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5007AF73765414C18846A6F8 /* Pods-WCFI-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCFI-A.release.xcconfig"; path = "Target Support Files/Pods-WCFI-A/Pods-WCFI-A.release.xcconfig"; sourceTree = "<group>"; };
+		57C7A81209FB5EAFF271B187 /* Pods-WCFI-ATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCFI-ATests.release.xcconfig"; path = "Target Support Files/Pods-WCFI-ATests/Pods-WCFI-ATests.release.xcconfig"; sourceTree = "<group>"; };
+		77B91AC5FC19AEB0624C017B /* Pods-WCFI-ATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCFI-ATests.debug.xcconfig"; path = "Target Support Files/Pods-WCFI-ATests/Pods-WCFI-ATests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A0C8BDD73C341F3C935CEA0 /* Pods-WCFI-A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCFI-A.debug.xcconfig"; path = "Target Support Files/Pods-WCFI-A/Pods-WCFI-A.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				581ECC00EA6ECF3CDA21B895 /* Pods_WCFI_A.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB7C2FD073C06353856C29A /* Pods_WCFI_ATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A10A353A5A1F4CCA5DB2EA2 /* Pods_WCFI_A_WCFI_AUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +110,14 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		1C23C4F9256056A20041A6FA /* php */ = {
+			isa = PBXGroup;
+			children = (
+				1C23C4FA256056C60041A6FA /* service.php */,
+			);
+			path = php;
+			sourceTree = "<group>";
+		};
 		1CF6475F2560393B00500D63 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +125,8 @@
 				1CF647842560393C00500D63 /* WCFI-ATests */,
 				1CF6478F2560393C00500D63 /* WCFI-AUITests */,
 				1CF647692560393B00500D63 /* Products */,
+				2854CC52725D5CE41D821FEE /* Pods */,
+				E2B92C537EEF1EF1764A0E5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,14 +143,17 @@
 		1CF6476A2560393B00500D63 /* WCFI-A */ = {
 			isa = PBXGroup;
 			children = (
+				1C23C4F9256056A20041A6FA /* php */,
 				1C23C4F02560420F0041A6FA /* ViewControllers */,
 				1CF6476B2560393B00500D63 /* AppDelegate.swift */,
 				1CF6476D2560393B00500D63 /* SceneDelegate.swift */,
 				1CF647712560393B00500D63 /* Main.storyboard */,
 				1CF647772560393C00500D63 /* Assets.xcassets */,
 				1CF647792560393C00500D63 /* LaunchScreen.storyboard */,
+				1CDE77D625606AA8002AF7AB /* GoogleService-Info.plist */,
 				1CF6477C2560393C00500D63 /* Info.plist */,
 				1CF647742560393B00500D63 /* WCFI_A.xcdatamodeld */,
+				1CDE77DB25606CEA002AF7AB /* WCFIBase.swift */,
 			);
 			path = "WCFI-A";
 			sourceTree = "<group>";
@@ -142,6 +176,29 @@
 			path = "WCFI-AUITests";
 			sourceTree = "<group>";
 		};
+		2854CC52725D5CE41D821FEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A0C8BDD73C341F3C935CEA0 /* Pods-WCFI-A.debug.xcconfig */,
+				5007AF73765414C18846A6F8 /* Pods-WCFI-A.release.xcconfig */,
+				10A7F107CBC958EECAC5046A /* Pods-WCFI-A-WCFI-AUITests.debug.xcconfig */,
+				4E00E22BFBE505EDF2B326A0 /* Pods-WCFI-A-WCFI-AUITests.release.xcconfig */,
+				77B91AC5FC19AEB0624C017B /* Pods-WCFI-ATests.debug.xcconfig */,
+				57C7A81209FB5EAFF271B187 /* Pods-WCFI-ATests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2B92C537EEF1EF1764A0E5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30FCE9C903BFE665EEB43E88 /* Pods_WCFI_A.framework */,
+				062524D8E83180C7CE9F9219 /* Pods_WCFI_A_WCFI_AUITests.framework */,
+				03902C6CDD56C6BF4D8E2E4B /* Pods_WCFI_ATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CF647952560393C00500D63 /* Build configuration list for PBXNativeTarget "WCFI-A" */;
 			buildPhases = (
+				44FF1C09A0E6883894047C08 /* [CP] Check Pods Manifest.lock */,
 				1CF647642560393B00500D63 /* Sources */,
 				1CF647652560393B00500D63 /* Frameworks */,
 				1CF647662560393B00500D63 /* Resources */,
+				5BE5F59C5B7AAFBE94572A68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CF647982560393C00500D63 /* Build configuration list for PBXNativeTarget "WCFI-ATests" */;
 			buildPhases = (
+				AA0E619374CA093D4C019413 /* [CP] Check Pods Manifest.lock */,
 				1CF6477D2560393C00500D63 /* Sources */,
 				1CF6477E2560393C00500D63 /* Frameworks */,
 				1CF6477F2560393C00500D63 /* Resources */,
@@ -184,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CF6479B2560393C00500D63 /* Build configuration list for PBXNativeTarget "WCFI-AUITests" */;
 			buildPhases = (
+				5CBD20E782A3FB3DDA1A48A5 /* [CP] Check Pods Manifest.lock */,
 				1CF647882560393C00500D63 /* Sources */,
 				1CF647892560393C00500D63 /* Frameworks */,
 				1CF6478A2560393C00500D63 /* Resources */,
+				D5E5F0FBF400EE9897F969F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +309,8 @@
 			files = (
 				1CF6477B2560393C00500D63 /* LaunchScreen.storyboard in Resources */,
 				1CF647782560393C00500D63 /* Assets.xcassets in Resources */,
+				1CDE77D725606AA8002AF7AB /* GoogleService-Info.plist in Resources */,
+				1C23C4FB256056C60041A6FA /* service.php in Resources */,
 				1CF647732560393B00500D63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +331,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44FF1C09A0E6883894047C08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WCFI-A-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BE5F59C5B7AAFBE94572A68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WCFI-A/Pods-WCFI-A-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WCFI-A/Pods-WCFI-A-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WCFI-A/Pods-WCFI-A-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CBD20E782A3FB3DDA1A48A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WCFI-A-WCFI-AUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0E619374CA093D4C019413 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WCFI-ATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E5F0FBF400EE9897F969F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WCFI-A-WCFI-AUITests/Pods-WCFI-A-WCFI-AUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WCFI-A-WCFI-AUITests/Pods-WCFI-A-WCFI-AUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WCFI-A-WCFI-AUITests/Pods-WCFI-A-WCFI-AUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1CF647642560393B00500D63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,6 +442,7 @@
 				1CF647762560393B00500D63 /* WCFI_A.xcdatamodeld in Sources */,
 				1CF647702560393B00500D63 /* MainMenuVC.swift in Sources */,
 				1CF6476C2560393B00500D63 /* AppDelegate.swift in Sources */,
+				1CDE77DC25606CEA002AF7AB /* WCFIBase.swift in Sources */,
 				1C23C4F5256042450041A6FA /* AttendanceVC.swift in Sources */,
 				1CF6476E2560393B00500D63 /* SceneDelegate.swift in Sources */,
 			);
@@ -449,6 +617,7 @@
 		};
 		1CF647962560393C00500D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0C8BDD73C341F3C935CEA0 /* Pods-WCFI-A.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,7 +627,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "danzel.serrano.WCFI-A";
+				PRODUCT_BUNDLE_IDENTIFIER = "danzel.serrano.WCFI-AA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,6 +636,7 @@
 		};
 		1CF647972560393C00500D63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5007AF73765414C18846A6F8 /* Pods-WCFI-A.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,7 +646,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "danzel.serrano.WCFI-A";
+				PRODUCT_BUNDLE_IDENTIFIER = "danzel.serrano.WCFI-AA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,6 +655,7 @@
 		};
 		1CF647992560393C00500D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B91AC5FC19AEB0624C017B /* Pods-WCFI-ATests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +677,7 @@
 		};
 		1CF6479A2560393C00500D63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C7A81209FB5EAFF271B187 /* Pods-WCFI-ATests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +699,7 @@
 		};
 		1CF6479C2560393C00500D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A7F107CBC958EECAC5046A /* Pods-WCFI-A-WCFI-AUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +719,7 @@
 		};
 		1CF6479D2560393C00500D63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E00E22BFBE505EDF2B326A0 /* Pods-WCFI-A-WCFI-AUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

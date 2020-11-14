@@ -6,12 +6,15 @@
 //
 
 import UIKit
+import Firebase
 
 class MainMenuVC: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        WCFIBase.initializeDB()
     }
     
     @IBAction func attendance(_ sender: UIButton) {

@@ -63,7 +63,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="DX1-qa-SFO" kind="presentation" identifier="attendance" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="8oY-x9-AvM"/>
+                        <segue destination="DX1-qa-SFO" kind="presentation" identifier="attendance" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="8oY-x9-AvM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -92,24 +92,38 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nS8-57-HEO">
+                                <rect key="frame" x="24" y="41" width="51" height="40.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nS8-57-HEO" secondAttribute="height" multiplier="43:34" id="7wS-P7-d5z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="21"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backSegue:" destination="DX1-qa-SFO" eventType="touchUpInside" id="mmA-uw-4fD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="clq-Mf-Spq"/>
                         <color key="backgroundColor" red="0.78158134219999997" green="0.91741973160000001" blue="0.92549413439999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="QVX-hd-G3W" firstAttribute="centerX" secondItem="Hf3-S9-bhE" secondAttribute="centerX" id="4wX-8M-pu8"/>
+                            <constraint firstItem="nS8-57-HEO" firstAttribute="top" secondItem="Hf3-S9-bhE" secondAttribute="top" constant="41" id="9O6-G4-HFS"/>
                             <constraint firstItem="QVX-hd-G3W" firstAttribute="top" secondItem="clq-Mf-Spq" secondAttribute="top" constant="19" id="W7M-f8-GsW"/>
                             <constraint firstItem="clq-Mf-Spq" firstAttribute="bottom" secondItem="QVX-hd-G3W" secondAttribute="bottom" constant="760.33333333333326" id="rDW-26-lm2"/>
                             <constraint firstItem="QVX-hd-G3W" firstAttribute="width" secondItem="QVX-hd-G3W" secondAttribute="height" multiplier="245:17" constant="-696.29411764705878" id="rof-hp-T21"/>
+                            <constraint firstItem="nS8-57-HEO" firstAttribute="leading" secondItem="clq-Mf-Spq" secondAttribute="leading" constant="24" id="tYz-Lm-cPE"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Teh-vr-uRe"/>
                     <connections>
                         <outlet property="AttendanceTable" destination="D6I-9Z-KSp" id="aAW-pO-IGD"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="menu" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="yku-fB-XpQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h9n-tu-jeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="985.51401869158872" y="103.67170626349893"/>
+            <point key="canvasLocation" x="1342.9906542056074" y="103.67170626349893"/>
         </scene>
     </scenes>
     <resources>

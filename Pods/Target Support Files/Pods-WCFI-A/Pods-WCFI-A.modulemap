@@ -1,0 +1,6 @@
+framework module Pods_WCFI_A {
+  umbrella header "Pods-WCFI-A-umbrella.h"
+
+  export *
+  module * { export * }
+}
