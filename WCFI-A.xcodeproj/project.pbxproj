@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CF6476C2560393B00500D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6476B2560393B00500D63 /* AppDelegate.swift */; };
+		1CF6476E2560393B00500D63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6476D2560393B00500D63 /* SceneDelegate.swift */; };
+		1CF647702560393B00500D63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6476F2560393B00500D63 /* ViewController.swift */; };
+		1CF647732560393B00500D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF647712560393B00500D63 /* Main.storyboard */; };
+		1CF647762560393B00500D63 /* WCFI_A.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CF647742560393B00500D63 /* WCFI_A.xcdatamodeld */; };
+		1CF647782560393C00500D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF647772560393C00500D63 /* Assets.xcassets */; };
+		1CF6477B2560393C00500D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF647792560393C00500D63 /* LaunchScreen.storyboard */; };
+		1CF647862560393C00500D63 /* WCFI_ATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF647852560393C00500D63 /* WCFI_ATests.swift */; };
+		1CF647912560393C00500D63 /* WCFI_AUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF647902560393C00500D63 /* WCFI_AUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CF647822560393C00500D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CF647602560393B00500D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CF647672560393B00500D63;
+			remoteInfo = "WCFI-A";
+		};
+		1CF6478D2560393C00500D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CF647602560393B00500D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CF647672560393B00500D63;
+			remoteInfo = "WCFI-A";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CF647682560393B00500D63 /* WCFI-A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCFI-A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF6476B2560393B00500D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CF6476D2560393B00500D63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1CF6476F2560393B00500D63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CF647722560393B00500D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CF647752560393B00500D63 /* WCFI_A.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WCFI_A.xcdatamodel; sourceTree = "<group>"; };
+		1CF647772560393C00500D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CF6477A2560393C00500D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CF6477C2560393C00500D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF647812560393C00500D63 /* WCFI-ATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCFI-ATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF647852560393C00500D63 /* WCFI_ATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCFI_ATests.swift; sourceTree = "<group>"; };
+		1CF647872560393C00500D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF6478C2560393C00500D63 /* WCFI-AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCFI-AUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF647902560393C00500D63 /* WCFI_AUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCFI_AUITests.swift; sourceTree = "<group>"; };
+		1CF647922560393C00500D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CF647652560393B00500D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF6477E2560393C00500D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF647892560393C00500D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF6475F2560393B00500D63 = {
+			isa = PBXGroup;
+			children = (
+				1CF6476A2560393B00500D63 /* WCFI-A */,
+				1CF647842560393C00500D63 /* WCFI-ATests */,
+				1CF6478F2560393C00500D63 /* WCFI-AUITests */,
+				1CF647692560393B00500D63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CF647692560393B00500D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CF647682560393B00500D63 /* WCFI-A.app */,
+				1CF647812560393C00500D63 /* WCFI-ATests.xctest */,
+				1CF6478C2560393C00500D63 /* WCFI-AUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CF6476A2560393B00500D63 /* WCFI-A */ = {
+			isa = PBXGroup;
+			children = (
+				1CF6476B2560393B00500D63 /* AppDelegate.swift */,
+				1CF6476D2560393B00500D63 /* SceneDelegate.swift */,
+				1CF6476F2560393B00500D63 /* ViewController.swift */,
+				1CF647712560393B00500D63 /* Main.storyboard */,
+				1CF647772560393C00500D63 /* Assets.xcassets */,
+				1CF647792560393C00500D63 /* LaunchScreen.storyboard */,
+				1CF6477C2560393C00500D63 /* Info.plist */,
+				1CF647742560393B00500D63 /* WCFI_A.xcdatamodeld */,
+			);
+			path = "WCFI-A";
+			sourceTree = "<group>";
+		};
+		1CF647842560393C00500D63 /* WCFI-ATests */ = {
+			isa = PBXGroup;
+			children = (
+				1CF647852560393C00500D63 /* WCFI_ATests.swift */,
+				1CF647872560393C00500D63 /* Info.plist */,
+			);
+			path = "WCFI-ATests";
+			sourceTree = "<group>";
+		};
+		1CF6478F2560393C00500D63 /* WCFI-AUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CF647902560393C00500D63 /* WCFI_AUITests.swift */,
+				1CF647922560393C00500D63 /* Info.plist */,
+			);
+			path = "WCFI-AUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CF647672560393B00500D63 /* WCFI-A */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF647952560393C00500D63 /* Build configuration list for PBXNativeTarget "WCFI-A" */;
+			buildPhases = (
+				1CF647642560393B00500D63 /* Sources */,
+				1CF647652560393B00500D63 /* Frameworks */,
+				1CF647662560393B00500D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WCFI-A";
+			productName = "WCFI-A";
+			productReference = 1CF647682560393B00500D63 /* WCFI-A.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CF647802560393C00500D63 /* WCFI-ATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF647982560393C00500D63 /* Build configuration list for PBXNativeTarget "WCFI-ATests" */;
+			buildPhases = (
+				1CF6477D2560393C00500D63 /* Sources */,
+				1CF6477E2560393C00500D63 /* Frameworks */,
+				1CF6477F2560393C00500D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CF647832560393C00500D63 /* PBXTargetDependency */,
+			);
+			name = "WCFI-ATests";
+			productName = "WCFI-ATests";
+			productReference = 1CF647812560393C00500D63 /* WCFI-ATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CF6478B2560393C00500D63 /* WCFI-AUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF6479B2560393C00500D63 /* Build configuration list for PBXNativeTarget "WCFI-AUITests" */;
+			buildPhases = (
+				1CF647882560393C00500D63 /* Sources */,
+				1CF647892560393C00500D63 /* Frameworks */,
+				1CF6478A2560393C00500D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CF6478E2560393C00500D63 /* PBXTargetDependency */,
+			);
+			name = "WCFI-AUITests";
+			productName = "WCFI-AUITests";
+			productReference = 1CF6478C2560393C00500D63 /* WCFI-AUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CF647602560393B00500D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					1CF647672560393B00500D63 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					1CF647802560393C00500D63 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1CF647672560393B00500D63;
+					};
+					1CF6478B2560393C00500D63 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1CF647672560393B00500D63;
+					};
+				};
+			};
+			buildConfigurationList = 1CF647632560393B00500D63 /* Build configuration list for PBXProject "WCFI-A" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CF6475F2560393B00500D63;
+			productRefGroup = 1CF647692560393B00500D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CF647672560393B00500D63 /* WCFI-A */,
+				1CF647802560393C00500D63 /* WCFI-ATests */,
+				1CF6478B2560393C00500D63 /* WCFI-AUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CF647662560393B00500D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF6477B2560393C00500D63 /* LaunchScreen.storyboard in Resources */,
+				1CF647782560393C00500D63 /* Assets.xcassets in Resources */,
+				1CF647732560393B00500D63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF6477F2560393C00500D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF6478A2560393C00500D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CF647642560393B00500D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF647762560393B00500D63 /* WCFI_A.xcdatamodeld in Sources */,
+				1CF647702560393B00500D63 /* ViewController.swift in Sources */,
+				1CF6476C2560393B00500D63 /* AppDelegate.swift in Sources */,
+				1CF6476E2560393B00500D63 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF6477D2560393C00500D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF647862560393C00500D63 /* WCFI_ATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF647882560393C00500D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF647912560393C00500D63 /* WCFI_AUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CF647832560393C00500D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CF647672560393B00500D63 /* WCFI-A */;
+			targetProxy = 1CF647822560393C00500D63 /* PBXContainerItemProxy */;
+		};
+		1CF6478E2560393C00500D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CF647672560393B00500D63 /* WCFI-A */;
+			targetProxy = 1CF6478D2560393C00500D63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CF647712560393B00500D63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF647722560393B00500D63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CF647792560393C00500D63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF6477A2560393C00500D63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CF647932560393C00500D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CF647942560393C00500D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CF647962560393C00500D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WCFI-A/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "danzel.serrano.WCFI-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CF647972560393C00500D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WCFI-A/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "danzel.serrano.WCFI-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CF647992560393C00500D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WCFI-ATests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "danzel.serrano.WCFI-ATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCFI-A.app/WCFI-A";
+			};
+			name = Debug;
+		};
+		1CF6479A2560393C00500D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WCFI-ATests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "danzel.serrano.WCFI-ATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCFI-A.app/WCFI-A";
+			};
+			name = Release;
+		};
+		1CF6479C2560393C00500D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WCFI-AUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "danzel.serrano.WCFI-AUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WCFI-A";
+			};
+			name = Debug;
+		};
+		1CF6479D2560393C00500D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WCFI-AUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "danzel.serrano.WCFI-AUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WCFI-A";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CF647632560393B00500D63 /* Build configuration list for PBXProject "WCFI-A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF647932560393C00500D63 /* Debug */,
+				1CF647942560393C00500D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CF647952560393C00500D63 /* Build configuration list for PBXNativeTarget "WCFI-A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF647962560393C00500D63 /* Debug */,
+				1CF647972560393C00500D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CF647982560393C00500D63 /* Build configuration list for PBXNativeTarget "WCFI-ATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF647992560393C00500D63 /* Debug */,
+				1CF6479A2560393C00500D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CF6479B2560393C00500D63 /* Build configuration list for PBXNativeTarget "WCFI-AUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF6479C2560393C00500D63 /* Debug */,
+				1CF6479D2560393C00500D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1CF647742560393B00500D63 /* WCFI_A.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1CF647752560393B00500D63 /* WCFI_A.xcdatamodel */,
+			);
+			currentVersion = 1CF647752560393B00500D63 /* WCFI_A.xcdatamodel */;
+			path = WCFI_A.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1CF647602560393B00500D63 /* Project object */;
+}
