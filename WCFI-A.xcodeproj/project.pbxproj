@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C23C4F5256042450041A6FA /* AttendanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C23C4F4256042450041A6FA /* AttendanceVC.swift */; };
 		1CF6476C2560393B00500D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6476B2560393B00500D63 /* AppDelegate.swift */; };
 		1CF6476E2560393B00500D63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6476D2560393B00500D63 /* SceneDelegate.swift */; };
-		1CF647702560393B00500D63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6476F2560393B00500D63 /* ViewController.swift */; };
+		1CF647702560393B00500D63 /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6476F2560393B00500D63 /* MainMenuVC.swift */; };
 		1CF647732560393B00500D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF647712560393B00500D63 /* Main.storyboard */; };
 		1CF647762560393B00500D63 /* WCFI_A.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CF647742560393B00500D63 /* WCFI_A.xcdatamodeld */; };
 		1CF647782560393C00500D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF647772560393C00500D63 /* Assets.xcassets */; };
@@ -36,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C23C4F4256042450041A6FA /* AttendanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceVC.swift; sourceTree = "<group>"; };
 		1CF647682560393B00500D63 /* WCFI-A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCFI-A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF6476B2560393B00500D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CF6476D2560393B00500D63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CF6476F2560393B00500D63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CF6476F2560393B00500D63 /* MainMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
 		1CF647722560393B00500D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CF647752560393B00500D63 /* WCFI_A.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WCFI_A.xcdatamodel; sourceTree = "<group>"; };
 		1CF647772560393C00500D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C23C4F02560420F0041A6FA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1CF6476F2560393B00500D63 /* MainMenuVC.swift */,
+				1C23C4F4256042450041A6FA /* AttendanceVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		1CF6475F2560393B00500D63 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +112,9 @@
 		1CF6476A2560393B00500D63 /* WCFI-A */ = {
 			isa = PBXGroup;
 			children = (
+				1C23C4F02560420F0041A6FA /* ViewControllers */,
 				1CF6476B2560393B00500D63 /* AppDelegate.swift */,
 				1CF6476D2560393B00500D63 /* SceneDelegate.swift */,
-				1CF6476F2560393B00500D63 /* ViewController.swift */,
 				1CF647712560393B00500D63 /* Main.storyboard */,
 				1CF647772560393C00500D63 /* Assets.xcassets */,
 				1CF647792560393C00500D63 /* LaunchScreen.storyboard */,
@@ -262,8 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF647762560393B00500D63 /* WCFI_A.xcdatamodeld in Sources */,
-				1CF647702560393B00500D63 /* ViewController.swift in Sources */,
+				1CF647702560393B00500D63 /* MainMenuVC.swift in Sources */,
 				1CF6476C2560393B00500D63 /* AppDelegate.swift in Sources */,
+				1C23C4F5256042450041A6FA /* AttendanceVC.swift in Sources */,
 				1CF6476E2560393B00500D63 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

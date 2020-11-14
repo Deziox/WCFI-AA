@@ -1,24 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main MenuVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainMenuVC" customModule="WCFI_A" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WCFI-LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="XEE-wl-v12">
+                                <rect key="frame" x="61" y="69" width="307" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="XEE-wl-v12" secondAttribute="height" multiplier="361:111" constant="37.063063063063055" id="IQT-3i-Axt"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attendance and Analytics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="if1-Us-6M9">
+                                <rect key="frame" x="68" y="160" width="293" height="68.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="if1-Us-6M9" secondAttribute="height" multiplier="245:17" constant="-696.29411764705878" id="13M-VR-HEi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gc7-NJ-F3G">
+                                <rect key="frame" x="96.666666666666686" y="246.66666666666663" width="235" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gc7-NJ-F3G" secondAttribute="height" multiplier="235:51" id="Oll-AY-h8n"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="39"/>
+                                <size key="titleShadowOffset" width="-2" height="1"/>
+                                <state key="normal" title="Attendance">
+                                    <color key="titleColor" red="1" green="0.54431107225244602" blue="0.60717482097929421" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="attendance:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gsF-Mc-yfF"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.78158134219999997" green="0.91741973160000001" blue="0.92549413439999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="gc7-NJ-F3G" firstAttribute="top" secondItem="if1-Us-6M9" secondAttribute="bottom" constant="18" id="3jw-8N-so5"/>
+                            <constraint firstItem="gc7-NJ-F3G" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9aY-Cg-5pB"/>
+                            <constraint firstItem="gc7-NJ-F3G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FPD-sW-V29"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XEE-wl-v12" secondAttribute="trailing" constant="60" id="I4W-Xf-HEo"/>
+                            <constraint firstItem="XEE-wl-v12" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="O19-GH-oG0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="if1-Us-6M9" secondAttribute="trailing" constant="67" id="UjN-Ww-K4n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gc7-NJ-F3G" secondAttribute="trailing" id="fDW-lc-45M"/>
+                            <constraint firstItem="XEE-wl-v12" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="gFd-Ob-17x"/>
+                            <constraint firstItem="if1-Us-6M9" firstAttribute="top" secondItem="XEE-wl-v12" secondAttribute="bottom" constant="8" id="tMO-kI-hBo"/>
+                            <constraint firstItem="if1-Us-6M9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="xCo-1A-rKU"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <segue destination="DX1-qa-SFO" kind="presentation" identifier="attendance" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="8oY-x9-AvM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="41" y="104"/>
+        </scene>
+        <!--AttendanceVC-->
+        <scene sceneID="lwk-e4-AYI">
+            <objects>
+                <viewController id="DX1-qa-SFO" customClass="AttendanceVC" customModule="WCFI_A" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hf3-S9-bhE">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attendance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.30000001192092896" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QVX-hd-G3W">
+                                <rect key="frame" x="67.333333333333343" y="63.000000000000007" width="293.33333333333326" height="68.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QVX-hd-G3W" secondAttribute="height" multiplier="245:17" constant="-696.29411764705878" id="bRC-rr-po9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="D6I-9Z-KSp">
+                                <rect key="frame" x="20" y="209" width="388" height="659"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="clq-Mf-Spq"/>
+                        <color key="backgroundColor" red="0.78158134219999997" green="0.91741973160000001" blue="0.92549413439999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="QVX-hd-G3W" firstAttribute="centerX" secondItem="Hf3-S9-bhE" secondAttribute="centerX" id="4wX-8M-pu8"/>
+                            <constraint firstItem="QVX-hd-G3W" firstAttribute="top" secondItem="clq-Mf-Spq" secondAttribute="top" constant="19" id="W7M-f8-GsW"/>
+                            <constraint firstItem="clq-Mf-Spq" firstAttribute="bottom" secondItem="QVX-hd-G3W" secondAttribute="bottom" constant="760.33333333333326" id="rDW-26-lm2"/>
+                            <constraint firstItem="QVX-hd-G3W" firstAttribute="width" secondItem="QVX-hd-G3W" secondAttribute="height" multiplier="245:17" constant="-696.29411764705878" id="rof-hp-T21"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Teh-vr-uRe"/>
+                    <connections>
+                        <outlet property="AttendanceTable" destination="D6I-9Z-KSp" id="aAW-pO-IGD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h9n-tu-jeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="985.51401869158872" y="103.67170626349893"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="WCFI-LOGO" width="107.66666412353516" height="33.333332061767578"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

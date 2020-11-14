@@ -7,13 +7,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainMenuVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func attendance(_ sender: UIButton) {
+        performSegue(withIdentifier: "attendance", sender: nil)
+    }
 
 }
 
